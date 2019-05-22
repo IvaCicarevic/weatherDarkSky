@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		205D56FA22823F58008A6F0A /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D56F922823F58008A6F0A /* DateHelper.swift */; };
+		AAD1D2052281A8D6008EF4A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD1D2042281A8D6008EF4A5 /* AppDelegate.swift */; };
+		AAD1D2072281A8D6008EF4A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD1D2062281A8D6008EF4A5 /* ViewController.swift */; };
+		AAD1D20A2281A8D6008EF4A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD1D2082281A8D6008EF4A5 /* Main.storyboard */; };
+		AAD1D20C2281A8D7008EF4A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD1D20B2281A8D7008EF4A5 /* Assets.xcassets */; };
+		AAD1D20F2281A8D7008EF4A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD1D20D2281A8D7008EF4A5 /* LaunchScreen.storyboard */; };
+		AAD1D21A2281A9E2008EF4A5 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD1D2192281A9E2008EF4A5 /* Weather.swift */; };
+		AAD1D21C2281AA0B008EF4A5 /* Currently.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD1D21B2281AA0B008EF4A5 /* Currently.swift */; };
+		AAD1D2222281AABC008EF4A5 /* BackendService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD1D2212281AABC008EF4A5 /* BackendService.swift */; };
+		AAD1D2242281AD41008EF4A5 /* WeatherIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD1D2232281AD41008EF4A5 /* WeatherIcons.swift */; };
+		AAD1D2282281B19F008EF4A5 /* CitySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD1D2272281B19F008EF4A5 /* CitySearch.swift */; };
+		AAD1D22B22822A18008EF4A5 /* Hourly.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD1D22A22822A18008EF4A5 /* Hourly.swift */; };
+		AAD1D22D22822A49008EF4A5 /* HourData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD1D22C22822A49008EF4A5 /* HourData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		205D56F922823F58008A6F0A /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		AAD1D2012281A8D6008EF4A5 /* zadatakDarkSky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zadatakDarkSky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD1D2042281A8D6008EF4A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAD1D2062281A8D6008EF4A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAD1D2092281A8D6008EF4A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAD1D20B2281A8D7008EF4A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAD1D20E2281A8D7008EF4A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAD1D2102281A8D7008EF4A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD1D2192281A9E2008EF4A5 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		AAD1D21B2281AA0B008EF4A5 /* Currently.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currently.swift; sourceTree = "<group>"; };
+		AAD1D2212281AABC008EF4A5 /* BackendService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendService.swift; sourceTree = "<group>"; };
+		AAD1D2232281AD41008EF4A5 /* WeatherIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherIcons.swift; sourceTree = "<group>"; };
+		AAD1D2272281B19F008EF4A5 /* CitySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearch.swift; sourceTree = "<group>"; };
+		AAD1D22A22822A18008EF4A5 /* Hourly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hourly.swift; sourceTree = "<group>"; };
+		AAD1D22C22822A49008EF4A5 /* HourData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAD1D1FE2281A8D6008EF4A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		205D56F822823EB0008A6F0A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				205D56F922823F58008A6F0A /* DateHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AAD1D1F82281A8D6008EF4A5 = {
+			isa = PBXGroup;
+			children = (
+				AAD1D2032281A8D6008EF4A5 /* zadatakDarkSky */,
+				AAD1D2022281A8D6008EF4A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAD1D2022281A8D6008EF4A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAD1D2012281A8D6008EF4A5 /* zadatakDarkSky.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAD1D2032281A8D6008EF4A5 /* zadatakDarkSky */ = {
+			isa = PBXGroup;
+			children = (
+				205D56F822823EB0008A6F0A /* Helper */,
+				AAD1D2162281A972008EF4A5 /* Model */,
+				AAD1D2182281A998008EF4A5 /* View */,
+				AAD1D2172281A98B008EF4A5 /* Service */,
+				AAD1D2292281B264008EF4A5 /* Controller */,
+				AAD1D2042281A8D6008EF4A5 /* AppDelegate.swift */,
+				AAD1D2082281A8D6008EF4A5 /* Main.storyboard */,
+				AAD1D20B2281A8D7008EF4A5 /* Assets.xcassets */,
+				AAD1D20D2281A8D7008EF4A5 /* LaunchScreen.storyboard */,
+				AAD1D2102281A8D7008EF4A5 /* Info.plist */,
+			);
+			path = zadatakDarkSky;
+			sourceTree = "<group>";
+		};
+		AAD1D2162281A972008EF4A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAD1D2192281A9E2008EF4A5 /* Weather.swift */,
+				AAD1D21B2281AA0B008EF4A5 /* Currently.swift */,
+				AAD1D22A22822A18008EF4A5 /* Hourly.swift */,
+				AAD1D22C22822A49008EF4A5 /* HourData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AAD1D2172281A98B008EF4A5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AAD1D2212281AABC008EF4A5 /* BackendService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		AAD1D2182281A998008EF4A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAD1D2232281AD41008EF4A5 /* WeatherIcons.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAD1D2292281B264008EF4A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AAD1D2272281B19F008EF4A5 /* CitySearch.swift */,
+				AAD1D2062281A8D6008EF4A5 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAD1D2002281A8D6008EF4A5 /* zadatakDarkSky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD1D2132281A8D7008EF4A5 /* Build configuration list for PBXNativeTarget "zadatakDarkSky" */;
+			buildPhases = (
+				AAD1D1FD2281A8D6008EF4A5 /* Sources */,
+				AAD1D1FE2281A8D6008EF4A5 /* Frameworks */,
+				AAD1D1FF2281A8D6008EF4A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zadatakDarkSky;
+			productName = zadatakDarkSky;
+			productReference = AAD1D2012281A8D6008EF4A5 /* zadatakDarkSky.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAD1D1F92281A8D6008EF4A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Iva Cicarevic";
+				TargetAttributes = {
+					AAD1D2002281A8D6008EF4A5 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AAD1D1FC2281A8D6008EF4A5 /* Build configuration list for PBXProject "zadatakDarkSky" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAD1D1F82281A8D6008EF4A5;
+			productRefGroup = AAD1D2022281A8D6008EF4A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAD1D2002281A8D6008EF4A5 /* zadatakDarkSky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAD1D1FF2281A8D6008EF4A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD1D20F2281A8D7008EF4A5 /* LaunchScreen.storyboard in Resources */,
+				AAD1D20C2281A8D7008EF4A5 /* Assets.xcassets in Resources */,
+				AAD1D20A2281A8D6008EF4A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAD1D1FD2281A8D6008EF4A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD1D2072281A8D6008EF4A5 /* ViewController.swift in Sources */,
+				AAD1D22D22822A49008EF4A5 /* HourData.swift in Sources */,
+				AAD1D2242281AD41008EF4A5 /* WeatherIcons.swift in Sources */,
+				AAD1D22B22822A18008EF4A5 /* Hourly.swift in Sources */,
+				AAD1D21A2281A9E2008EF4A5 /* Weather.swift in Sources */,
+				205D56FA22823F58008A6F0A /* DateHelper.swift in Sources */,
+				AAD1D2282281B19F008EF4A5 /* CitySearch.swift in Sources */,
+				AAD1D2222281AABC008EF4A5 /* BackendService.swift in Sources */,
+				AAD1D21C2281AA0B008EF4A5 /* Currently.swift in Sources */,
+				AAD1D2052281A8D6008EF4A5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAD1D2082281A8D6008EF4A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD1D2092281A8D6008EF4A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAD1D20D2281A8D7008EF4A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD1D20E2281A8D7008EF4A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAD1D2112281A8D7008EF4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAD1D2122281A8D7008EF4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAD1D2142281A8D7008EF4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5QM46SC8G;
+				INFOPLIST_FILE = zadatakDarkSky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cicareviciva-hotmail.com.zadatakDarkSky";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAD1D2152281A8D7008EF4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5QM46SC8G;
+				INFOPLIST_FILE = zadatakDarkSky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cicareviciva-hotmail.com.zadatakDarkSky";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAD1D1FC2281A8D6008EF4A5 /* Build configuration list for PBXProject "zadatakDarkSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD1D2112281A8D7008EF4A5 /* Debug */,
+				AAD1D2122281A8D7008EF4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD1D2132281A8D7008EF4A5 /* Build configuration list for PBXNativeTarget "zadatakDarkSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD1D2142281A8D7008EF4A5 /* Debug */,
+				AAD1D2152281A8D7008EF4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAD1D1F92281A8D6008EF4A5 /* Project object */;
+}
